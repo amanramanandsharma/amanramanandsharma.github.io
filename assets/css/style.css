@@ -530,6 +530,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+#projects{
+  min-height: 100vh;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -614,6 +618,16 @@ section {
   opacity: 1;
   bottom: 0;
 }
+
+.portfolio .card-portfolio{
+  height: 320px;
+}
+
+.portfolio .card-portfolio .card-title{
+  min-height: 60px;
+}
+
+
 
 /*--------------------------------------------------------------
 # Portfolio Details
