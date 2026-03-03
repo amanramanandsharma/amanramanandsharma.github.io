@@ -143,7 +143,6 @@ body[data-theme="light"] hr {
   margin: 1.8em 0 1.2em;
 }
 
-body[data-theme="dark"] header,
 body[data-theme="dark"] footer,
 body[data-theme="dark"] section {
   margin: 1.4em 0 1.8em;
@@ -153,7 +152,6 @@ body[data-theme="dark"] section {
   box-shadow: none;
 }
 
-body[data-theme="light"] header,
 body[data-theme="light"] footer,
 body[data-theme="light"] section {
   margin: 1.4em 0 1.8em;
@@ -202,12 +200,11 @@ body[data-theme="light"] .typing {
 }
 
 /* Card animation – subtle for editorial feel */
-header, footer, section {
+footer, section {
   transition: opacity 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
   animation: cardIn 0.5s ease-out;
 }
 
-header:hover,
 footer:hover,
 section:hover {
   opacity: 0.98;
